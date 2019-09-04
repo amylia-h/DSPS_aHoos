@@ -1,0 +1,14 @@
+#creating my file "HW1.txt" and adding it to my repo
+git init
+git remote add origin https://github.com/amylia-h/DSPS_aHoos
+git add HW1.txt
+
+#cheking status
+ls -1
+git status
+
+#committing HW1 to cloud
+git commit HW.txt -m "trying to commit"
+git push
+
+# good job!
