@@ -11,4 +11,10 @@ git status
 git commit HW.txt -m "trying to commit"
 git push
 
-# good job!
+#making local changes to the file and pushing to cloud
+echo "please work" >> HW1.txt
+git status
+git commit HW1.txt -m 'commit changes'
+git push
+
+
